@@ -1,0 +1,67 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local configuration files
+config.local.php
+config.production.php
+database.local.php
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Composer
+/vendor/
+composer.phar
+
+# Logs and temporary files
+*.log
+*.cache
+*.tmp
+*.bak
+*.swp
+
+# Database backups and local database files
+*.sql.gz
+*.sqlite
+*.sqlite3
+*.db
+/database/backups/
+/database/dumps/
+/backups/
+
+# Uploaded files and runtime data
+/storage/*
+/uploads/*
+/logs/*
+/tmp/*
+
+# Keep required directories in Git
+!/storage/.gitkeep
+!/uploads/.gitkeep
+
+# WAMP / Apache / MySQL local files
+.wamp/
+wamp/
+apache/logs/
+mysql/data/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.code-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Testing and coverage
+/coverage/
+/.phpunit.cache/
+/.phpunit.result.cache

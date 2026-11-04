@@ -1,0 +1,68 @@
+/* Dashboard CSDACL */
+.card-dashboard {
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-dashboard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.stat-card {
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.stat-card:hover {
+    transform: scale(1.05);
+}
+
+#documentsChart {
+    max-height: 250px;
+    margin: 0 auto;
+}
+
+.personnel-table th {
+    background-color: #f8f9fa;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+/* Style des cartes */
+.document-card {
+    background-color: #0d6efd; /* Bleu Bootstrap */
+    color: white; /* Texte en blanc */
+    border: none;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Effet de zoom au survol */
+.document-card:hover {
+    transform: scale(1.05); /* Zoom de 5% */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+/* Style du texte dans les cartes */
+.document-card .card-title {
+    font-weight: 600;
+    color: white;
+}
+
+.document-card .card-text {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+
+
+
