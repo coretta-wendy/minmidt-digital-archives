@@ -2,6 +2,14 @@
 
 A web-based digital archiving platform designed to improve the management, preservation, and retrieval of administrative records within the Ministry of Mines, Industry and Technological Development (MINMIDT), Cameroon.
 
+
+![Project](https://img.shields.io/badge/Project-Academic%20Project-blue)
+![Type](https://img.shields.io/badge/Type-Web%20Application-green)
+![Backend](https://img.shields.io/badge/Backend-PHP-777BB4)
+![Database](https://img.shields.io/badge/Database-MySQL-4479A1)
+![Frontend](https://img.shields.io/badge/Frontend-HTML%20%7C%20CSS%20%7C%20JavaScript-orange)
+![Framework](https://img.shields.io/badge/Framework-Bootstrap-7952B3)
+
 ## Project Overview
 
 This project focuses on the digital management of administrative records, including decrees, decisions, and administrative orders.
